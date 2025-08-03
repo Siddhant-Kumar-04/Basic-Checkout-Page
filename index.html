@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="main-nav">
+        <h1 class="brand">Cafe Coffee Day</h1>
+    </nav>
+
+    <div class="page">
+
+        <section class="box order">
+            <h2>Your Order Summary</h2>
+            <ul class="items">
+                <li class="item">
+                    <div class="item-quantity">
+                        1x
+                    </div>
+                    <div class="item-name">
+                        Capiccino
+                    </div>
+                    <div class="item-price">
+                        $3.99
+                    </div>
+
+                    <ul class="item-options-list">
+                        <li  class="item-option">
+                            Light
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="item">
+                    <div class="item-quantity">
+                        1x
+                    </div>
+                    <div class="item-name">
+                        Capiccino
+                    </div>
+                    <div class="item-price">
+                        $3.99
+                    </div>
+                
+                    <ul class="item-options-list">
+                        <li class="item-option">
+                            Light
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="item">
+                    <div class="item-quantity">
+                        1x
+                    </div>
+                    <div class="item-name">
+                        Capiccino
+                    </div>
+                    <div class="item-price">
+                        $3.99
+                    </div>
+                
+                    <ul class="item-options-list">
+                        <li class="item-option">
+                            Light
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="add-item">
+                <button class="add-item-button">Add more items</button>
+            </div>
+
+        </section>
+
+        <section class="box payment">
+            <div class="name-box box">
+                <h2 class="box-title">
+                    Customer Info
+                </h2>
+                <div class="input-group">
+                    <label for="name" class="user-input-label">Name</label>
+                    <input type="text" id="name" class="user-input" name="name" placeholder="Enter your name" required>
+                </div>
+            </div>
+
+            <div class="cc-box box">
+                <h2 class="box-title">
+                    Payment Details 
+                </h2>
+
+                <div class="input-group">
+                    <label for="cc-number" class="user-input-label">Credit Card Number</label>
+                    <input type="text" id="cc-number" class="user-input" name="cc-number" placeholder="Enter your credit card number" required>
+                </div>
+                <div class="input-group">
+                    <label for="cvv" class="user-input-label">CVV</label>
+                    <input type="text" id="cvv" class="user-input short-input" name="cvv" placeholder="Enter your CVV"
+                        required>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="totals box">
+            <table class="totals-table">
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$11.97</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$0.99</td>
+                    </tr>
+                    <tr class="final-totals">
+                     <td>Total</td>
+                     <td>$20.50</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="checkout" type="button" >Checkout</button>
+          
+        </section>
+
+    </div>
+
+
+</body>
+</html>
